@@ -38,6 +38,8 @@ void setup() {
 }
 
 void loop() {
+    Serial.println("Enter target angle:");
+    delay(2000);
 
     // TODO 7: Check if Serial data is available
     if (Serial.available() > 0) {
