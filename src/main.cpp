@@ -62,7 +62,7 @@ void loop() {
 
         } else {
 
-            Serial.println("Error: Invalid angle! Enter value between 0 and 180.");
+            Serial.println(" Enter angle between 0 and 180°  ");
         }
     }
 }
