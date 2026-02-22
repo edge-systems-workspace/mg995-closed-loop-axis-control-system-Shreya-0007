@@ -70,7 +70,7 @@ void loop() {
 
         } else {
 
-            Serial.println(" Enter angle between 0 and 180°  ");
+            Serial.println(" Enter angle between 0 and 90°  ");
         }
     }
 }
