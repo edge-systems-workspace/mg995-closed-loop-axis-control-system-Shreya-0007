@@ -45,6 +45,11 @@ void loop() {
     if (Serial.available() > 0) {
 
         // TODO 8: Read integer angle input from Serial
+        if (!Serial.available()) {
+            Serial.println("No input detected.");
+            return;
+        }
+
         targetAngle = Serial.parseInt();
 
         // Clear any remaining characters in buffer
