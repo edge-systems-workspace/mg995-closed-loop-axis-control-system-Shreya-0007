@@ -2,7 +2,7 @@
 * @file main.ino
  * @brief MG995 Closed-Loop Axis Control System
  * @author Shreya Sharma
- * @date 2026-02-20
+ * @date 2026-02-22
  *
  * @details
  * Implements PWM-based closed-loop control for MG995 servo motor.
