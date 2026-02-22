@@ -37,7 +37,6 @@ void setup() {
 }
 
 void loop() {
-
     // TODO 7: Check if Serial data is available
     if (Serial.available() > 0) {
 
