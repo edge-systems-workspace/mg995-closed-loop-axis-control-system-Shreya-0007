@@ -28,6 +28,7 @@ void setup() {
 
     // TODO 5: Attach servo to PWM pin
     axisServo.attach(SERVO_PIN);
+    axisServo.write(90);
 
     // TODO 6: Print system initialization message
     Serial.println("=================================");
