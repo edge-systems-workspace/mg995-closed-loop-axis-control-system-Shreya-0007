@@ -42,7 +42,7 @@ void loop() {
     delay(2000);
 
     // TODO 7: Check if Serial data is available
-    if (Serial.available() > 0) {
+    if (Serial.available() > 90) {
 
         // TODO 8: Read integer angle input from Serial
         if (!Serial.available()) {
